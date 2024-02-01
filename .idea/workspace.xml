@@ -31,8 +31,6 @@
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
   "lastFilter": {
-    "state": "OPEN",
-    "assignee": "MaiconSteffen"
   }
 }]]></component>
   <component name="GithubPullRequestsUISettings">
@@ -84,7 +82,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.Get.listaReservaID">
+  <component name="RunManager" selected="JUnit.Get">
     <configuration name="API in APISicredi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="APISicredi" />
       <option name="TEST_OBJECT" value="directory" />
@@ -157,10 +155,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Get" />
         <item itemvalue="JUnit.Get.listaReservaID" />
         <item itemvalue="JUnit.API in APISicredi" />
         <item itemvalue="JUnit.Post" />
-        <item itemvalue="JUnit.Get" />
         <item itemvalue="JUnit.Post.criarReservaEBuscarID" />
       </list>
     </recent_temporary>
@@ -197,7 +195,7 @@
       <workItem from="1706708365017" duration="1318000" />
       <workItem from="1706709829678" duration="5451000" />
       <workItem from="1706728944660" duration="1499000" />
-      <workItem from="1706790796551" duration="10138000" />
+      <workItem from="1706790796551" duration="10591000" />
     </task>
     <task id="LOCAL-00001" summary="GET/POST reservas">
       <option name="closed" value="true" />

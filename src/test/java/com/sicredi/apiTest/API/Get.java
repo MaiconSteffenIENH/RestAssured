@@ -1,6 +1,5 @@
 package com.sicredi.apiTest.API;
 
-import com.github.javafaker.Faker;
 import com.sicredi.apiTest.service.ServRestService;
 import io.restassured.response.Response;
 import org.apache.http.HttpStatus;
@@ -8,7 +7,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import java.util.Random;
+import static com.sicredi.apiTest.util.StaticValue.createRandomID;
 
 
 public class Get {
@@ -17,12 +16,7 @@ public class Get {
     @DisplayName("Buscar reserva por ID - *200*")
     void listaReservaID() {
         ServRestService servRestService = new ServRestService();
-        Response response = servRestService.get("/");
-        Assertions.assertEquals(HttpStatus.SC_OK, response.statusCode());
-        String numeroAleatorio = String.valueOf((int) (Math.random() * 20) + 1);
-        //tentar pegar o tamanho do array e pegar um numero aleatorio
-
-        Response responseGet = servRestService.get("/" + numeroAleatorio);
+        Response responseGet = servRestService.get("/" + createRandomID());
         Assertions.assertEquals(HttpStatus.SC_OK, responseGet.statusCode());
     }
 
