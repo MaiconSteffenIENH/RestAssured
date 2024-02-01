@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="eeec461d-8281-4313-8876-2f2528bfcf4e" name="Changes" comment="GET/POST reservas">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <branch-grouping />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "MaiconSteffen"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="5122dce7-5a91-4395-a6bb-ef419b694d1a" />
+        <option name="url" value="https://github.com/MaiconSteffenIENH/RestAssured.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2bgTSohJBTgK1nNCi3L8tKi7nMr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.API in APISicredi.executor": "Run",
+    "JUnit.Get.executor": "Run",
+    "JUnit.Get.listaReservaID.executor": "Run",
+    "JUnit.Get.listaReservaIDInexistente.executor": "Run",
+    "JUnit.Get.listaTodasReservas.executor": "Run",
+    "JUnit.Get.testDadoUmIDQuandoChamadoObtenhoStatusCode200.executor": "Run",
+    "JUnit.List.testDadoUmIDQuandoChamadoObtenhoStatusCode200.executor": "Run",
+    "JUnit.Post.criarReserva.executor": "Run",
+    "JUnit.Post.criarReservaEBuscarID.executor": "Run",
+    "JUnit.Post.criarReservaSemBody.executor": "Run",
+    "JUnit.Post.executor": "Run",
+    "JUnit.Post.testDadoCrioUmaReservaQuandoChamadoObtenhoStatusCode200.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/MAICON STEFFEN/Documents/Softdesign/Sicredi/APISicredi/src/main/java/org/example/Main.java",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.Get.listaReservaID">
+    <configuration name="API in APISicredi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="APISicredi" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java/com/sicredi/apiTest/API" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="APISicredi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sicredi.apiTest.API.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sicredi.apiTest.API" />
+      <option name="MAIN_CLASS_NAME" value="com.sicredi.apiTest.API.Get" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Get.listaReservaID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="APISicredi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sicredi.apiTest.API.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sicredi.apiTest.API" />
+      <option name="MAIN_CLASS_NAME" value="com.sicredi.apiTest.API.Get" />
+      <option name="METHOD_NAME" value="listaReservaID" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Post" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="APISicredi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sicredi.apiTest.API.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sicredi.apiTest.API" />
+      <option name="MAIN_CLASS_NAME" value="com.sicredi.apiTest.API.Post" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Post.criarReservaEBuscarID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="APISicredi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sicredi.apiTest.API.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sicredi.apiTest.API" />
+      <option name="MAIN_CLASS_NAME" value="com.sicredi.apiTest.API.Post" />
+      <option name="METHOD_NAME" value="criarReservaEBuscarID" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Get.listaReservaID" />
+        <item itemvalue="JUnit.API in APISicredi" />
+        <item itemvalue="JUnit.Post" />
+        <item itemvalue="JUnit.Get" />
+        <item itemvalue="JUnit.Post.criarReservaEBuscarID" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-3183f394aec4-8f899f12" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eeec461d-8281-4313-8876-2f2528bfcf4e" name="Changes" comment="" />
+      <created>1706635726606</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1706635726606</updated>
+      <workItem from="1706635727775" duration="199000" />
+      <workItem from="1706636141193" duration="4982000" />
+      <workItem from="1706703467745" duration="413000" />
+      <workItem from="1706704061394" duration="1199000" />
+      <workItem from="1706705294639" duration="77000" />
+      <workItem from="1706705447660" duration="280000" />
+      <workItem from="1706705783649" duration="123000" />
+      <workItem from="1706705919919" duration="57000" />
+      <workItem from="1706705987787" duration="58000" />
+      <workItem from="1706706053032" duration="155000" />
+      <workItem from="1706706225455" duration="229000" />
+      <workItem from="1706706482893" duration="159000" />
+      <workItem from="1706706735378" duration="289000" />
+      <workItem from="1706707050259" duration="1248000" />
+      <workItem from="1706708365017" duration="1318000" />
+      <workItem from="1706709829678" duration="5451000" />
+      <workItem from="1706728944660" duration="1499000" />
+      <workItem from="1706790796551" duration="10138000" />
+    </task>
+    <task id="LOCAL-00001" summary="GET/POST reservas">
+      <option name="closed" value="true" />
+      <created>1706808291029</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706808291029</updated>
+    </task>
+    <task id="LOCAL-00002" summary="GET/POST reservas">
+      <option name="closed" value="true" />
+      <created>1706811644298</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706811644298</updated>
+    </task>
+    <task id="LOCAL-00003" summary="GET/POST reservas">
+      <option name="closed" value="true" />
+      <created>1706811836172</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706811836172</updated>
+    </task>
+    <task id="LOCAL-00004" summary="GET/POST reservas">
+      <option name="closed" value="true" />
+      <created>1706811845916</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706811845916</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="GET/POST reservas" />
+    <option name="LAST_COMMIT_MESSAGE" value="GET/POST reservas" />
+  </component>
+</project>
