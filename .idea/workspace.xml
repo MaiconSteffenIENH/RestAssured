@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eeec461d-8281-4313-8876-2f2528bfcf4e" name="Changes" comment="GET/POST reservas">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sicredi/apiTest/API/Ping_HealthCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sicredi/apiTest/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sicredi/apiTest/base/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sicredi/apiTest/dto/BookingDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sicredi/apiTest/service/CreateService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sicredi/apiTest/API/Get.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sicredi/apiTest/API/Get.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sicredi/apiTest/API/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sicredi/apiTest/API/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sicredi/apiTest/dto/CreateDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sicredi/apiTest/dto/ResponseBookingDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sicredi/apiTest/service/ServRestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sicredi/apiTest/service/RestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sicredi/apiTest/util/BookingUtil.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,10 +39,10 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -41,14 +51,19 @@
       </UrlAndAccount>
     </option>
   </component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2bgTSohJBTgK1nNCi3L8tKi7nMr" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -62,8 +77,11 @@
     "JUnit.Get.listaTodasReservas.executor": "Run",
     "JUnit.Get.testDadoUmIDQuandoChamadoObtenhoStatusCode200.executor": "Run",
     "JUnit.List.testDadoUmIDQuandoChamadoObtenhoStatusCode200.executor": "Run",
+    "JUnit.Ping_HealthCheck.ping.executor": "Run",
     "JUnit.Post.criarReserva.executor": "Run",
+    "JUnit.Post.criarReservaAtualizado.executor": "Run",
     "JUnit.Post.criarReservaEBuscarID.executor": "Run",
+    "JUnit.Post.criarReservaOptimizado.executor": "Run",
     "JUnit.Post.criarReservaSemBody.executor": "Run",
     "JUnit.Post.executor": "Run",
     "JUnit.Post.testDadoCrioUmaReservaQuandoChamadoObtenhoStatusCode200.executor": "Run",
@@ -82,7 +100,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.Get">
+  <component name="RunManager" selected="JUnit.Ping_HealthCheck.ping">
     <configuration name="API in APISicredi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="APISicredi" />
       <option name="TEST_OBJECT" value="directory" />
@@ -106,7 +124,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Get.listaReservaID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Get.listaReservaIDInexistente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="APISicredi" />
       <extension name="coverage">
         <pattern>
@@ -116,13 +134,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.sicredi.apiTest.API" />
       <option name="MAIN_CLASS_NAME" value="com.sicredi.apiTest.API.Get" />
-      <option name="METHOD_NAME" value="listaReservaID" />
+      <option name="METHOD_NAME" value="listaReservaIDInexistente" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Post" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Get.listaTodasReservas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="APISicredi" />
       <extension name="coverage">
         <pattern>
@@ -131,13 +149,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.sicredi.apiTest.API" />
-      <option name="MAIN_CLASS_NAME" value="com.sicredi.apiTest.API.Post" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="com.sicredi.apiTest.API.Get" />
+      <option name="METHOD_NAME" value="listaTodasReservas" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Post.criarReservaEBuscarID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Ping_HealthCheck.ping" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="APISicredi" />
       <extension name="coverage">
         <pattern>
@@ -146,8 +165,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.sicredi.apiTest.API" />
-      <option name="MAIN_CLASS_NAME" value="com.sicredi.apiTest.API.Post" />
-      <option name="METHOD_NAME" value="criarReservaEBuscarID" />
+      <option name="MAIN_CLASS_NAME" value="com.sicredi.apiTest.API.Ping_HealthCheck" />
+      <option name="METHOD_NAME" value="ping" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -155,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Get" />
-        <item itemvalue="JUnit.Get.listaReservaID" />
+        <item itemvalue="JUnit.Ping_HealthCheck.ping" />
         <item itemvalue="JUnit.API in APISicredi" />
-        <item itemvalue="JUnit.Post" />
-        <item itemvalue="JUnit.Post.criarReservaEBuscarID" />
+        <item itemvalue="JUnit.Get" />
+        <item itemvalue="JUnit.Get.listaTodasReservas" />
+        <item itemvalue="JUnit.Get.listaReservaIDInexistente" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +214,10 @@
       <workItem from="1706708365017" duration="1318000" />
       <workItem from="1706709829678" duration="5451000" />
       <workItem from="1706728944660" duration="1499000" />
-      <workItem from="1706790796551" duration="10591000" />
+      <workItem from="1706790796551" duration="11197000" />
+      <workItem from="1707140029187" duration="684000" />
+      <workItem from="1707321750604" duration="3690000" />
+      <workItem from="1707409236765" duration="6291000" />
     </task>
     <task id="LOCAL-00001" summary="GET/POST reservas">
       <option name="closed" value="true" />
